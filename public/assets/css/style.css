@@ -1,22 +1,41 @@
 li {
+  width: 30vw;
   padding: 5px;
   margin: 5px;
-  background: blue;
+  background: rgb(191, 165, 19);
+  border: 3px solid seashell;
 }
-
 .label {
   font-weight: bold;
 }
-
 .create-update-form {
   padding: 5px;
   margin: 5px;
   background: aqua;
 }
-
 .form-group {
   margin-bottom: 5px;
 }
 body {
   background-color: cadetblue;
+  display: block;
+  justify-content: center;
+  color: seashell;
+}
+button {
+  background-color: seagreen;
+  border-radius: 10%;
+  color: seashell;
+}
+button:hover {
+  background-color: seagreen;
+  opacity: 50%;
+}
+hr {
+  background-color: seashell;
+  width: 75vw;
+  height: 3px;
+}
+.create-form {
+  justify-content: center;
 }
