@@ -1,4 +1,4 @@
-INSERT INTO burgers (burger_name) VALUES ('California');
-INSERT INTO burgers (burger_name) VALUES ('Bacon');
-INSERT INTO burgers (burger_name, devoured) VALUES ('Dicks', true);
+INSERT INTO burgers (name) VALUES ('California');
+INSERT INTO burgers (name) VALUES ('Bacon');
+INSERT INTO burgers (name, devoured) VALUES ('Dicks', true);
 
